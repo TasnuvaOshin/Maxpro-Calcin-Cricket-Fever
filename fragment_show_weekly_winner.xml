@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminPanel.ShowWeeklyWinner.ShowWeeklyWinnerFragment">
+
+  <EditText
+      android:id="@+id/Week"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#eee"
+      android:layout_margin="17dp"
+      android:hint="Enter Week Number"
+      android:padding="10dp"
+      android:inputType="number"
+      />
+
+    <Button
+        android:id="@+id/downloadQuizList"
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="14dp"
+        android:text="Download Weekly Quiz Winner List"
+        />
+    <Button
+        android:id="@+id/downloadTeamList"
+        android:background="#000156"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="14dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Download Weekly Team Winner List"
+        />
+
+</LinearLayout>

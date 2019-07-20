@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminPanel.QuizParticipantDetails.QuizParticipant">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Quiz Participant Status"
+    android:textColor="@android:color/white"
+    android:textAlignment="center"
+    android:background="@android:color/holo_red_dark"
+    android:textSize="16sp"
+    android:padding="16dp"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#eee"
+        android:padding="6dp"
+        android:hint="Enter Match No"
+        android:inputType="number"
+        android:id="@+id/et_matchno"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Prepare Details Data"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="16dp"
+        android:onClick="DownloadQuizDetails"
+
+        />
+    <Button
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="download File"
+        android:onClick="DownloadFile"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="12dp"
+
+        />
+</LinearLayout>

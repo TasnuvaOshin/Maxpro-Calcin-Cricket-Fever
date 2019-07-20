@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminPanel.AdminHomeFragment">
+
+    <Button
+        android:id="@+id/btn_admin_reg_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c085c"
+        android:text="Registration Report"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c085c"
+        android:text="Registration Details"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/Quiz_participant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Doctor Quiz Participant Report"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/quiz_Details_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c085c"
+        android:text="Doctor Quiz Participant Details"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/myteam_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Doctor Team Participant Report"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/myteam_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c085c"
+        android:text="Doctor Team Participant Details"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/adminWeeklyWinnerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Weekly Winner List"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>

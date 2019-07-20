@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminPanel.TeamParticipantScore.TeamParticipantScoreActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Participant Score"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:padding="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:hint="Enter Match no"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:layout_margin="15dp"
+        android:id="@+id/et_matchno"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prepare Data"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:onClick="StartDownloading"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        />
+    <Button
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:onClick="StartDown"
+        />
+</LinearLayout>

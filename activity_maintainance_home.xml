@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Maintainance.MaintainanceHome">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Match No"
+        android:background="#eee"
+        android:layout_margin="18dp"
+        android:padding="12dp"
+        android:inputType="number"
+        android:id="@+id/et_matchno"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctor_dsm_input_section"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#DADADADA"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/team_one_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:fontFamily="sans-serif"
+            android:padding="3dp"
+            android:text="Select Team One"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#000000"
+            android:padding="3dp">
+
+            <Spinner
+                android:id="@+id/team_one_spinner"
+
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="Enter"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:onClick="SelectTeamOnePlayer"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#DADADADA"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/team_two_name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:fontFamily="sans-serif"
+            android:padding="3dp"
+            android:text="Select Team Two"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#000000"
+            android:padding="3dp">
+
+            <Spinner
+                android:id="@+id/team_two_spinner"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="Enter"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:onClick="EnterTeamTwoValue"
+        />
+
+</LinearLayout>

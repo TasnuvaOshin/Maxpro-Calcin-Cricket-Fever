@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCheckingActivity"
+    android:background="@drawable/nicebc"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:onClick="GoToAdmin"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:background="#00249b"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+
+        />
+    <Button
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:background="#00249b"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DSM"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:onClick="GoToDsm"
+
+        />
+    <Button
+        android:onClick="GoToRsm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RSm"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:background="#00249b"
+        android:layout_marginTop="6dp"
+
+        />
+
+    <Button
+        android:onClick="GoToSm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="8dp"
+
+        android:background="#00249b"
+        android:padding="8dp"
+        android:text="SM"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>

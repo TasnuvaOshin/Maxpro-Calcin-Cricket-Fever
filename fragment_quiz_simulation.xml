@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Simulation.Fragment.QuizSimulationFragment">
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="18dp"
+              android:background="#d2d2d2"
+              android:padding="14dp"
+              android:hint="Enter Match no"
+              android:inputType="number"
+              android:textStyle="bold"
+              android:id="@+id/et_matchno"
+              />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#d2d2d2"
+        android:padding="14dp"
+        android:hint="Enter Question One Answer"
+
+        android:textStyle="bold"
+        android:id="@+id/et_qusoneans"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#d2d2d2"
+        android:padding="14dp"
+        android:hint="Enter Question Two Answer"
+
+        android:textStyle="bold"
+        android:id="@+id/et_qustwoans"
+        />
+
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_red_dark"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:text="Process"
+    android:textSize="18sp"
+    android:layout_margin="18dp"
+    android:id="@+id/btProcess"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="Update Report"
+        android:textSize="18sp"
+        android:layout_margin="18dp"
+        android:id="@+id/btUpdateReport"
+        />
+</LinearLayout>
